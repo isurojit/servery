@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() 
+        {
+            var x = document.getElementById("month").min;
+            document.getElementById("submit").innerHTML = x;
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+<h1 id="title">Indian Technology institute Student Servey</h1>
+<p id="description">Please share your experience in our institute.</p>
+<form id="survey-form">
+
+    <div id="nametype">
+        <label id="name-label" for="name">Name:</label>
+    </div>
+    <div id="inputname">
+        <input id="name" type="text" placeholder="Name" required>
+    </div>
+
+    <div id="emailtype">
+        <label id="email-label" for="email">Email Id:</label>
+    </div>
+    <div id="inputemail">
+        <input id="email" type="email" placeholder="email" required>
+    </div>
+
+    <div id="num">
+        <label id="number-label" for="number">Age:</label>
+    </div>
+    <div id="inputnum">
+        <input id="number" type="number" placeholder="Age" min="18" max="60" required>
+    </div>
+
+    <div id="dropdown">
+        <div id="droplabel">
+            <label for="course-dropdown">Which Course You Have Enrolled?</label>
+        </div>
+        <div>
+            <select id="course-dropdown" name="course" required>
+                <option value="select">Select Your Course</option>
+                <option value="bca">BCA</option>
+                <option value="bsc">BSC</option>
+                <option value="bcom">BCOM</option>
+                <option value="ba">BA</option>
+                <option value="btech">BTECH</option>
+                <option value="mca">MCA</option>
+                <option value=msc">MSC</option>
+                <option value="mcom">MCOM</option>
+                <option value="ma">MA</option>
+                <option value="mtech">MTECH</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="year">
+        <label for="month">Select Your Admission Date</label><br>
+        <input id="month" type="date" min="1992-01-01" placeholder="Enter date" required>
+    </div>
+
+    <div id="form-group">
+        <p>Would you recommend our institution to a friend?</p>
+        <div id="recomend">
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitely</label><br>
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Maybe</label><br>
+  
+        <label>
+            <input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Not sure</label>
+        </div>
+    </div>
+
+    <div id="comment">
+        <lable for="reason" id="reasonlable">If not, then share your reason</lable>
+        <br>
+        <textarea
+          id="reason"
+          name="comments"
+          placeholder="Describe your reason here.. "
+        ></textarea>
+    </div>
+
+    <div id="check-box">
+        <p>Please select your favorite features of our institute. (check all that apply)</p>
+        <div id="features">
+        <label>
+           <input type="checkbox" name="features" value="campus" required> 
+        Large Campus</label><br>
+        <label>
+            <input type="checkbox" name="features" value="enviroment"> 
+        Friendly Enviroment</label><br>
+        <label>
+            <input type="checkbox" name="features" value="faculty"> 
+        Teaching Faculty</label><br>
+        <label>
+            <input type="checkbox" name="features" value="clean"> 
+        Tidey & Clean Class Rooms</label><br>
+        <label>
+            <input type="checkbox" name="features" value="lab"> 
+        Mordern Labs</label><br>
+        <label>
+            <input type="checkbox" name="features" value="Placement"> 
+        Campus Placement</label><br>
+        <label>
+            <input type="checkbox" name="features" value="online"> 
+        Online Education</label><br>
+        </div>
+    </div>
+
+    <div id="suggestion">
+        <p>Any comments or suggestions?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+    </div>
+
+    <div>
+        <button id="submit" type="submit">Submit Servey</button>
+        <button id="reset" type="reset">Reset Servey</button>
+    </div> 
+
+</form>
+<footer id="foot">All rights reserved @ Indian Technology institute (2020-2021) </footer>
+</body>
+</html>

@@ -1,0 +1,223 @@
+body{
+    text-align: center;
+    background-image: url(https://i.ibb.co/kmsP3pw/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#title{
+    font-family: 'UnifrakturCook', cursive;
+}
+#description{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.2em;
+    transform: translateY(-60%);
+}
+#survey-form{
+    background-color:rgba(203, 181, 255, 0.4);
+    width: 50%;
+    margin: 0 auto; 
+    border-radius: 5%;
+    padding: 5%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;   
+}
+#nametype{
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+#inputname{
+    text-align: left;
+    
+}
+#name{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 85%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+}
+#emailtype{
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+#inputemail{
+    text-align: left;
+}
+#email{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 85%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+}
+#num{
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+#inputnum{
+    text-align: left;
+}
+#number{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 10%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+}
+#dropdown{
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+#droplabel{
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+#course-dropdown{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 40%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    margin-bottom: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+}
+.year{
+    text-align: left;
+}
+#month{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 30%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2%;
+    
+}
+#form-group{
+    text-align: left;
+}
+#recomend{
+    padding-bottom: 3%;
+    transform: translateY(-5%);
+}
+#comment{
+    text-align: left;
+}
+#reason{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 100%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2%;
+}
+#check-box{
+    text-align: left;
+}
+#features{
+    transform: translateY(-5%);
+}
+#suggestion{
+    text-align: left;
+}
+#comments{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 100%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+    transform: translateY(-10%);
+}
+#submit{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 30%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+    transform: translateY(-10%);
+    margin: 5%;
+}
+#reset{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 30%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Overpass', sans-serif;
+    transform: translateY(-10%);
+    margin: 5%;
+
+}
+#foot{
+    padding: 2%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 500;
+}
+#submit:hover{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 30%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgb(9, 255, 30);
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    transform: translateY(-10%);
+    margin: 5%;
+}
+#reset:hover{
+    border-radius: 25px;
+    border: 2px solid rgb(192, 65, 255);
+    padding: 2.5%; 
+    width: 30%;
+    height: 15%;
+    opacity: 0.7;
+    font-size: 80%;
+    background-color: rgb(241, 28, 28);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    transform: translateY(-10%);
+    margin: 5%;
+}
